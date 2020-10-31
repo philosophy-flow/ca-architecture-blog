@@ -13,84 +13,79 @@ img {
 
 .grid {
   display: grid;
-  grid-template: repeat(30, 1fr) / repeat(12, 1fr);
+  grid-template: repeat(47, 55px) / repeat(12, 1fr);
 
-  width: 2000x;
+  width: 900px;
   margin: auto;
 }
 
 /* set 1: repurposed living */
 .a {
-  grid-area: 1 / 3 / 5 / 13; 
-  border: 1px solid black;
+  grid-area: 1 / 3 / 11 / 13; 
 }
 
 .b {
-  grid-area: 1 / 2 / 2 / 4;
+  grid-area: 1 / 2 / 2 / 8;
 }
 
 .c {
-  grid-area: 2 / 2 / 3 / 6;
+  grid-area: 2 / 2 / 4 / 7;
 }
 
 /* set 2: angles */
 
 .d {
-  grid-area: 4 / 1 / 9 / 7; 
-  border: 1px solid black;
+  grid-area: 9 / 1 / 21 / 7; 
 }
 
 .e {
-
+  grid-area: 13 / 6 / 14 / 13;
 }
 
 .f {
-
+  grid-area: 14 / 6 / 15 / 13;
 }
 
 /* set 3: pattern play */
 
 .g {
-  grid-area: 8 / 3 / 12 / 13;
-  border: 1px solid black;
+  grid-area: 19 / 3 / 29 / 13;
 }
 
 .h {
-
+  grid-area: 23 / 2 / 25 / 7;
 }
 
 .i {
-
+  grid-area: 24 / 2 / 26 / 6;
 }
 
 /* set 4: healing house */
 
 .j {
-  grid-area: 11 / 1 / 16 / 7;
-  border: 1px solid black;
+  grid-area: 27 / 1 / 39 / 7;
 }
 
 .k {
-
+  grid-area: 32 / 6 / 33 / 13;
 }
 
 .l {
-
+  grid-area: 33 / 6 / 34 / 13;
 }
 
 /* set 5: curved perfection */
 
 .m {
-  grid-area: 15 / 3 / 19 / 13;
-  border: 1px solid black;
+  grid-area: 37 / 3 / 47 / 13;
 }
 
 .n {
-
+  grid-area: 42 / 2 / 43 / 13; 
 }
 
 .o {
-
+  grid-area: 43 / 2 / 44 / 13; 
 }
 
 .headLine {
@@ -133,10 +128,4 @@ img {
     width: 65%;
     font-size: 120%;
   }
-}
-
-
-/* TEMP */
-.e, .f, .h, .i, .k, .l, .n, .o {
-  display: none;
 }
